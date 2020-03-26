@@ -165,7 +165,7 @@ File: Layout CSS
 nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 #mainav, #breadcrumb, .sidebar nav{line-height:normal;}
-#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
+#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"fontAwesome"; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
 #mainav{}
@@ -280,13 +280,13 @@ input:focus, textarea:focus, *:required:focus{border-color:#00BCDF;}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#00BCDF; border-color:#00BCDF;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
-
+h1, h2, h3, h4 {font-weight: bold;}
 
 /* Rows */
 .row0, .row0 a{color:#4A4A4A; background-color:#F2F1EE;}
 .row1{color:#FFFFFF; background-color:#182351; border-bottom: solid 1px #E6C376;}
 .row2{color:#FFFFFF; background-color:#182351; border-bottom: solid 2px #E6C376;}
-.row3{color:#4a4a4a; background-color:#EAEAEA; border-top: solid 2px #E6C376; border-bottom: solid 2px #E6C376;}
+.row3{color:#4a4a4a; background-color:#EAEAEA; }
 .row4{color:#EAEAEA; background-color:green;}
 .row4 a:hover{color:inherit;}
 .row4.overlay::after{background-color:#182351;}
@@ -294,6 +294,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#00BCDF;}
 .row6, .row6 a{color:#EAEAEA; background-color:#182351;}
 .over1 { background-color: #E6C376}
 
+.h-color {color: #182351}
+hr {border-color: #e6c376;}
 /* Header */
 #header #logo *{color:inherit;}
 #header input, #header button{color:#FFFFFF; background-color:#212427;}
