@@ -111,7 +111,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #footer{padding:0 0 80px 0;}
 
-#footer #cta{margin-bottom:80px; padding:30px; border-radius:0 0 5px 5px;}
+#footer #cta{margin-bottom:10px; padding:10px; border-radius:0 0 5px 5px;}
 #footer #cta div{position:relative; min-height:40px; padding-left:60px;}
 #footer #cta div:last-child{margin-bottom:0;}/* Used in small devices when elements stack */
 #footer #cta p{margin:0; padding:0;}
@@ -287,7 +287,7 @@ h1, h2, h3, h4 {font-weight: bold;}
 .row1{color:#FFFFFF; background-color:#182351; border-bottom: solid 1px #E6C376;}
 .row2{color:#FFFFFF; background-color:#182351; border-bottom: solid 2px #E6C376;}
 .row3{color:#4a4a4a; background-color:#EAEAEA; }
-.row4{color:#EAEAEA; background-color:green;}
+.row4{color:#EAEAEA; background-color:#182351; height: 65px;}
 .row4 a:hover{color:inherit;}
 .row4.overlay::after{background-color:#182351;}
 .row5{color:#EAEAEA; background-color:#182351; border-top: solid 1px #E6C376; border-bottom: solid 1px #E6C376;}
@@ -300,6 +300,7 @@ hr {border-color: #e6c376;}
 .a-color {color: #182351;}
 .p-color {color: #182351;}
 .li-color {color: #4a4a4a;}
+.pp-color {color: #e6c376;}
 
 /* Header */
 #header #logo *{color:inherit;}
