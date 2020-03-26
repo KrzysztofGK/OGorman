@@ -46,8 +46,8 @@ File: Layout CSS
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:150px 0;}
-
-#pageintro article{display:block; float:right; max-width:50%; text-align:right;}
+/*to change width of article over the main picture */
+#pageintro article{display:block; float:right; max-width:80%; text-align:right;}
 #pageintro article div *{margin:0; line-height:normal;}
 #pageintro article .heading{margin-bottom:30px; font-size:42px; text-transform:uppercase;}
 #pageintro article p{font-size:16px;}
@@ -298,7 +298,8 @@ h1, h2, h3, h4 {font-weight: bold;}
 hr {border-color: #e6c376;}
 .font-x1 {color: #182351;}
 .a-color {color: #182351;}
-
+.p-color {color: #182351;}
+.li-color {color: #4a4a4a;}
 
 /* Header */
 #header #logo *{color:inherit;}
