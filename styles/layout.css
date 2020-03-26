@@ -296,6 +296,10 @@ h1, h2, h3, h4 {font-weight: bold;}
 
 .h-color {color: #182351}
 hr {border-color: #e6c376;}
+.font-x1 {color: #182351;}
+.a-color {color: #182351;}
+
+
 /* Header */
 #header #logo *{color:inherit;}
 #header input, #header button{color:#FFFFFF; background-color:#212427;}
