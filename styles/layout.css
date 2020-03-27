@@ -45,21 +45,14 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:150px 0;}
+#pageintro{padding:30px 0;}
 /*to change width of article over the main picture */
-#pageintro article{display:block; float:right; max-width:80%; text-align:right;}
+#pageintro article{display:block; float:right; max-width:80%; text-align:left;}
 #pageintro article div *{margin:0; line-height:normal;}
-#pageintro article .heading{margin-bottom:30px; font-size:42px; text-transform:uppercase;}
+#pageintro article .heading{margin-bottom:10px; font-size:42px; text-transform:uppercase;}
 #pageintro article p{font-size:16px;}
 
-.logo-img {
-	width: 120px;
-	height: 120px;
-	float: left;
-	margin-top: 0px;
 
-
-}
 
 .overlay .heading {
 	color: red;
@@ -67,7 +60,7 @@ File: Layout CSS
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:80px 0;}
+.container{padding:20px 0;}
 
 /* Content */
 .container .content{}
@@ -109,7 +102,7 @@ File: Layout CSS
 
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
-#footer{padding:0 0 80px 0;}
+#footer{padding:0 0 10px 0;}
 
 #footer #cta{margin-bottom:10px; padding:10px; border-radius:0 0 5px 5px;}
 #footer #cta div{position:relative; min-height:40px; padding-left:60px;}
@@ -168,14 +161,14 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"fontAwesome"; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
-#mainav{}
+#mainav{margin-left: auto;}
 #mainav ul{text-transform:uppercase;}
 #mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none; font-weight:400;}
 #mainav ul ul ul{left:180px; top:0;}
 #mainav li{display:inline-block; position:relative; margin:0 15px 0 0; padding:0;}
 #mainav li:last-child{margin-right:0;}
 #mainav li li{width:100%; margin:0;}
-#mainav li a{display:block; padding:20px 0;}
+#mainav li a{display:block; padding:10px 0;}
 #mainav li li a{border:solid; border-width:0 0 1px 0;}
 #mainav .drop{padding-left:15px;}
 #mainav li li a, #mainav li li .drop{display:block; margin:0; padding:10px 15px;}
@@ -284,10 +277,10 @@ h1, h2, h3, h4 {font-weight: bold;}
 
 /* Rows */
 .row0, .row0 a{color:#4A4A4A; background-color:#F2F1EE;}
-.row1{color:#FFFFFF; background-color:#182351; border-bottom: solid 1px #E6C376;}
-.row2{color:#FFFFFF; background-color:#182351; border-bottom: solid 2px #E6C376;}
-.row3{color:#4a4a4a; background-color:#EAEAEA; }
-.row4{color:#EAEAEA; background-color:#182351; height: 65px;}
+.row1{color:#FFFFFF; background-color:#182351;}
+.row2{color:#FFFFFF; background-color:#182351; border-bottom: solid 1px #E6C376;}
+.row3{color:#4a4a4a; background-color:#EAEAEA; border-top: solid 1px #E6C376;}
+.row4{color:#EAEAEA; background-color:#182351; border-top: solid 1px #E6C376;}
 .row4 a:hover{color:inherit;}
 .row4.overlay::after{background-color:#182351;}
 .row5{color:#EAEAEA; background-color:#182351; border-top: solid 1px #E6C376; border-bottom: solid 1px #E6C376;}
@@ -301,6 +294,15 @@ hr {border-color: #e6c376;}
 .p-color {color: #182351;}
 .li-color {color: #4a4a4a;}
 .pp-color {color: #e6c376;}
+
+.logo-img {
+	width: 120px;
+	height: 80px;
+	margin-right: 80px;
+	margin-left: 50px;
+
+}
+
 
 /* Header */
 #header #logo *{color:inherit;}
@@ -334,8 +336,8 @@ hr {border-color: #e6c376;}
 /* Navigation */
 #mainav li a{color:inherit; background-color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#e6c376; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#00BCDF;}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color: rgba(0,0,0,.7); border-color:rgba(0,0,0,.6);}
+#mainav li li:hover > a, #mainav .active .active > a{color:#182351; background-color:#00BCDF;}
 #mainav form select{color:#FFFFFF; background-color:#3C4348;}
 
 #breadcrumb{border-color:#FFFFFF;}
